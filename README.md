@@ -50,11 +50,11 @@ We used the **COCO 2017 dataset** but **filtered it to only the `person` class**
 
 **EDA Visuals:**
 
-- _EDA — Category Frequency
+- EDA — Category Frequency
   
   <img width="1313" height="768" alt="category_frequency" src="https://github.com/user-attachments/assets/87a547f4-df6a-45cd-9477-002e55e9f639" />
 
-- _EDA — Sample annotated images
+- EDA — Sample annotated images
   
   <img width="1938" height="790" alt="images_from_dataset" src="https://github.com/user-attachments/assets/4d2183d6-14fe-4a1c-8438-2086d9bad641" />
 
@@ -76,19 +76,19 @@ We trained **three models** under controlled settings for fair comparison.
 
 **Training Visualizations:** 
 
-- _Training Loss Curves
+- Training Loss Curves
   
   <img width="691" height="470" alt="yolov8_training_loss" src="https://github.com/user-attachments/assets/8ff78621-f62a-4726-bdc4-7bb36f1674fb" />
 
-- _Validation Metrics (Precision, Recall, mAP)
+- Validation Metrics (Precision, Recall, mAP)
   
   <img width="691" height="470" alt="validation_metrics_yolov8" src="https://github.com/user-attachments/assets/ef4bd64d-7b96-4228-9867-4c1b92053898" />
 
-- _Precision-Recall Curve
+- Precision-Recall Curve
   
    <img width="691" height="470" alt="precision_recall_yolov8" src="https://github.com/user-attachments/assets/ffc6a152-227e-4f22-bf03-96447656b79b" />
 
-- _Confusion Matrix
+- Confusion Matrix
   
   <img width="636" height="504" alt="confusion_matrix_yolov8" src="https://github.com/user-attachments/assets/00895b39-9ffb-41a5-85fd-2ec13c36fe4a" />
 
@@ -113,13 +113,25 @@ mAP@50-95:           0.4401
 
 **Training Visualizations:** 
 
-- _Training Loss Curves 
+- Training Loss Curves 
   
   <img width="700" height="470" alt="training_loss_yolov5" src="https://github.com/user-attachments/assets/c30b5c1f-1b95-4fcc-ab1a-4123e5385c17" />
 
-- _Validation Metrics 
+- Validation Metrics 
   
   <img width="691" height="470" alt="validation_metrics_yolov5" src="https://github.com/user-attachments/assets/6e8f2a78-61b7-4954-b734-d8d8c108b8ad" />
+  
+- Precision-Recall Curve
+  
+  <img width="1200" height="1000" alt="yolov5_pr_curve" src="https://github.com/user-attachments/assets/95c83c9a-bd2c-4c63-b41d-56e782eb7e47" />
+
+- Confusion Matrix
+
+  <img width="1200" height="1000" alt="yolov5_confusion_matrix" src="https://github.com/user-attachments/assets/d324af35-5152-413c-a09d-ddfdaf0f8c57" />
+
+  
+
+
 
 **Final Metrics (YOLOv5):**
 
@@ -140,19 +152,19 @@ mAP@50-95:           0.484
 
 **Training Visualizations:** 
 
-- _Training Loss Curves
+- Training Loss Curves
   
   <img width="704" height="470" alt="rtdetr_training_loss" src="https://github.com/user-attachments/assets/a502dc5b-30b6-4eff-a1af-03802a3f9d09" />
 
-- _Validation Metrics
+- Validation Metrics
   
   <img width="695" height="470" alt="rtdetr_validation_metrics" src="https://github.com/user-attachments/assets/c01813c8-5a03-45c7-992f-24781322d714" />
 
-- _Precision-Recall Curve
+- Precision-Recall Curve
   
   <img width="695" height="470" alt="rtdetr_precision_curves" src="https://github.com/user-attachments/assets/461f176f-0ec7-4e02-87e1-9ba5ee6496ab" />
 
-- _Confusion Matrix
+- Confusion Matrix
   
   <img width="636" height="504" alt="rtdetr_confusion" src="https://github.com/user-attachments/assets/c2a5ec97-cdfc-47de-8bd0-ec5f4bb79177" />
 
@@ -223,19 +235,19 @@ We developed a fully interactive **Streamlit application** for testing these mod
 
 **UI Screenshots (add your images here):**
 
-- _App main interface
+- App main interface
   
   <img width="1512" height="949" alt="Screenshot 2025-10-04 at 12 42 40 PM" src="https://github.com/user-attachments/assets/f23d93fc-0664-4968-bc31-daf9d6266939" />
 
-- _Image detection example
+- Image detection example
   
   <img width="1512" height="949" alt="Screenshot 2025-10-04 at 12 43 05 PM" src="https://github.com/user-attachments/assets/33947fba-6ba8-459e-a996-0aa46d6aa2a7" />
 
-- _Video detection example
+- Video detection example
   
   <img width="1512" height="949" alt="Screenshot 2025-10-04 at 12 43 56 PM" src="https://github.com/user-attachments/assets/92ff96fe-9ea9-46fa-bec7-3c2f042009e7" />
 
-- _Line-cross counting example 
+- Line-cross counting example 
 
 **Run the app:**
 
@@ -261,21 +273,7 @@ pip install streamlit opencv-python-headless deep-sort-realtime
 
 ---
 
-## 6. Repository Structure
-
-```
-.
-├── data/                  # COCO processed dataset (person-only)
-├── training_notebooks/    # Kaggle notebooks for YOLOv5, YOLOv8, RT-DETR
-├── weights/               # Trained model weights
-├── app/                   # Streamlit application
-├── utils/                 # Helper scripts for preprocessing & EDA
-└── README.md
-```
-
----
-
-## 7. Highlights & Contributions
+## 6. Highlights & Contributions
 
 - Performed **EDA on COCO** to extract & analyze the `person` class distribution.
 - Designed **clean training pipelines** for YOLOv5, YOLOv8, and RT-DETR.
