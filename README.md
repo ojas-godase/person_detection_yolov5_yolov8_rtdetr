@@ -235,7 +235,9 @@ We developed a fully interactive **Streamlit application** for testing these mod
   
   <img width="1512" height="949" alt="Screenshot 2025-10-04 at 12 43 56 PM" src="https://github.com/user-attachments/assets/92ff96fe-9ea9-46fa-bec7-3c2f042009e7" />
 
-- Line-cross counting example 
+- Line-cross counting example
+  <img width="1512" height="949" alt="Screenshot 2025-10-04 at 7 50 12 PM" src="https://github.com/user-attachments/assets/29c71f81-0c89-4273-8926-e8c02e1174b6" />
+
 
 **Run the app:**
 
