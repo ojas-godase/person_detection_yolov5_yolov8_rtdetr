@@ -120,18 +120,6 @@ mAP@50-95:           0.4401
 - Validation Metrics 
   
   <img width="691" height="470" alt="validation_metrics_yolov5" src="https://github.com/user-attachments/assets/6e8f2a78-61b7-4954-b734-d8d8c108b8ad" />
-  
-- Precision-Recall Curve
-  
-  <img width="1200" height="1000" alt="yolov5_pr_curve" src="https://github.com/user-attachments/assets/95c83c9a-bd2c-4c63-b41d-56e782eb7e47" />
-
-- Confusion Matrix
-
-  <img width="1200" height="1000" alt="yolov5_confusion_matrix" src="https://github.com/user-attachments/assets/d324af35-5152-413c-a09d-ddfdaf0f8c57" />
-
-  
-
-
 
 **Final Metrics (YOLOv5):**
 
