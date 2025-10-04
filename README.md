@@ -276,11 +276,11 @@ pip install streamlit opencv-python-headless deep-sort-realtime
 
 - **[Ojas Godase](https://github.com/ojas-godase)** — *Author*  
   - Email: ojas.godase13@gmail.com  
-  - LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/ojas01010/)  
+  - LinkedIn: [linkedin](https://www.linkedin.com/in/ojas01010/)  
 
 - **[Rudra Shekhare](https://github.com/RudraShekhare)** — *Co-Author*  
   - Email: rudra282805@gmail.com  
-  - LinkedIn: [linkedin.com/in/coauthor](https://www.linkedin.com/in/rudra-shekhare-006987279/)
+  - LinkedIn: [linkedin](https://www.linkedin.com/in/rudra-shekhare-006987279/)
 
 ## 📄 Citation
 
