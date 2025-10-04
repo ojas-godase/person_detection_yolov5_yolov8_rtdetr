@@ -276,11 +276,11 @@ pip install streamlit opencv-python-headless deep-sort-realtime
 
 - **[Ojas Godase](https://github.com/ojas-godase)** — *Author*  
   - Email: ojas.godase13@gmail.com  
-  - LinkedIn: [linkedin](https://www.linkedin.com/in/ojas01010/)  
+  - LinkedIn: [Linkedin](https://www.linkedin.com/in/ojas01010/)  
 
 - **[Rudra Shekhare](https://github.com/RudraShekhare)** — *Co-Author*  
   - Email: rudra282805@gmail.com  
-  - LinkedIn: [linkedin](https://www.linkedin.com/in/rudra-shekhare-006987279/)
+  - LinkedIn: [Linkedin](https://www.linkedin.com/in/rudra-shekhare-006987279/)
 
 ## 📄 Citation
 
@@ -288,5 +288,5 @@ If you use this code or reference our paper, please cite:
 
 Ojas Godase and Rudra Shekhare, 
 "Comparative Analysis of YOLOv5, YOLOv8, and RT-DETR for Real-Time Person Detection and Counting", 2025.
-Available at: [https://github.com/OjasGodase/Person-Detection-Counting](https://github.com/OjasGodase/Person-Detection-Counting)
+Available at: [Github](https://github.com/ojas-godase/person_detection)
 
