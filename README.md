@@ -74,7 +74,8 @@ We trained **three models** under controlled settings for fair comparison.
 
 **Training Visualizations:** 
 
-- _Training Loss Curves 
+- _Training Loss Curves
+  
   <img width="691" height="470" alt="yolov8_training_loss" src="https://github.com/user-attachments/assets/8ff78621-f62a-4726-bdc4-7bb36f1674fb" />
 
 - _Validation Metrics (Precision, Recall, mAP)
